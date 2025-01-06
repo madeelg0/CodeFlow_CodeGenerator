@@ -1,0 +1,11 @@
+.myEditor {
+  padding-top: 4rem;
+  width: 100%;
+}
+.cm-editor.cm-focused {
+  outline: none;
+}
+
+.myEditor .cm-content {
+  font-weight: bold;
+}

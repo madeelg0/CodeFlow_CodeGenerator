@@ -1,0 +1,197 @@
+.StartNode {
+    width: 120px;
+    height: 80px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--start-node);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.EndNode {
+    width: 120px;
+    height: 80px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2725B;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* This is for input node */
+
+.InputNode {
+    width: 230px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--input-node);
+    font-size: 24px;
+    font-weight: bold;
+    transform: skewX(-30deg);
+  }
+  
+  .InputNodeContent {
+    transform: skewX(30deg);
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .InputInput {
+    width: 200px;
+    height: 30px;
+    background-color: var(--input-node);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+  }
+  .InputInput::placeholder {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .InputInput:focus::placeholder {
+    color: transparent;
+  }
+
+  
+
+
+  /* This is for output node */
+
+  .OutputNode {
+    width: 230px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--output-node);
+    font-size: 24px;
+    font-weight: bold;
+    transform: skewX(-30deg);
+  }
+  
+  .OutputNodeContent {
+    transform: skewX(30deg);
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .OutputInput {
+    width: 200px;
+    height: 30px;
+    background-color: var(--output-node);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+  }
+  .OutputInput::placeholder {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .OutputInput:focus::placeholder {
+    color: transparent;
+  }
+
+  
+
+  /* This is for process node */
+
+  .ProcessNode {
+    width: 230px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--process-node);
+  }
+  .processInput {
+    width: 220px;
+    height: 30px;
+    background-color: var(--process-node);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+  }
+  .processInput::placeholder {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .processInput:focus::placeholder {
+    color: transparent;
+  }
+
+  
+  /* This is for decision node */
+
+  .DecisionNodeContainer {
+    width: 212px;
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DecisionNode {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--decision-node);
+    font-size: 24px;
+    font-weight: bold;
+    transform: rotate(45deg);
+  }
+  
+  .DecisionNodeContent {
+    transform: rotate(-45deg);
+    width: 107px;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DecisionInput {
+    width: 180px;
+    height: 30px;
+    background-color: var(--decision-node);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+  }
+  .DecisionInput::placeholder {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .DecisionInput:focus::placeholder {
+    color: transparent;
+  }
+  
